@@ -3,6 +3,3 @@ languageCode = "ja-jp"
 title = "Coffee Break"
 theme = "tale"
 
-[module]
-  [[module.imports]]
-    path = "github.com/mildc055ee/tale-hugo"
