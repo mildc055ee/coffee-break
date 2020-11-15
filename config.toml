@@ -3,3 +3,8 @@ languageCode = "ja-jp"
 title = "Coffee Break"
 theme = "tale"
 
+github = "mildc055ee"
+
+[params]
+    github = "https://github.com/mildc055ee"
+

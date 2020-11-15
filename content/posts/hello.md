@@ -1,9 +1,10 @@
 ---
 title: "Hello"
-date: 2020-10-28T22:19:26+09:00
-draft: false
+date: 2020-11-16T05:43:42+09:00
+draft: true
+tags: [""]
+katex: false
 ---
 
-# hello world
-This is my new site!
-
+## Hello, World!
+前々からHugoを使うことに興味があったため、実際にGithub Pagesで運用してみることにしました。テーマはtaleをベースにセマンティクスを改良したりKatexを追加した独自テーマにしました。まだ荒削りな部分もあるので後々改良してく予定。
