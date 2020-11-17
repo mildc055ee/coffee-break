@@ -1,6 +1,5 @@
 baseURL = "http://example.org/"
 languageCode = "ja-jp"
-contentDir = "posts"
 disableKinds = ["RSS", "sitemap"]
 publishDir = "docs"
 title = "Coffee Break"

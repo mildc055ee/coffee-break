@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja-jp">
     <head>
-	<meta name="generator" content="Hugo 0.76.5" />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<meta name="description" content="">
 
-		<title>Coffee Break</title>
+		<title>Hello &middot; Coffee Break</title>
 
 		
   		<link rel="stylesheet" href="/css/style.css">
@@ -54,44 +52,45 @@
 
         
 
-<main>
-    <p class="list-section-title">Posts</p>
-	<section class="catalogue">
-		
-			<section class="catalogue-item">
-    <a href="http://example.org/posts/hello/">
-        <article class="catalogue-item-post">
-            <header>
-                <time datetime="2020-11-16 05:43:42 &#43;0900 JST" class="catalogue-item-post-time">November 16, 2020</time>
-                <h1 class="catalogue-item-post-title">Hello</h1>
-                <div class="catalogue-item-post-line"></div>
-            </header>
-
-            <p class="catalogue-item-post-summary">
-                <h2 id="hello-world">Hello, World!</h2>
+<main role="main">
+    <article class="post">
+        <header class="post-info">
+            <time datetime="2020-11-16 05:43:42 &#43;0900 JST">November 16, 2020</time>
+            <h1 class="post-title">Hello</h1>
+            <div class="post-line"></div>
+        </header>
+        <section class="post-content">
+            <h2 id="hello-world">Hello, World!</h2>
 <p>前々からHugoを使うことに興味があったため、実際にGithub Pagesで運用してみることにしました。テーマはtaleをベースにセマンティクスを改良したりKatexを追加した独自テーマにしました。まだ荒削りな部分もあるので後々改良してく予定。</p>
-            </p>
-            <p class="catalogue-item-post-summary-more">Read more...</p>
-        </article>
-    </a>
-</section>
+<h2 id="katex">Katex</h2>
+<p>公式ページの例より
+$$
+f(x) = \int_{-\infty}^\infty
+\hat f \xi,e^{2 \pi i \xi x}
+,d\xi
+$$</p>
+<p>複数行もちゃんと対応してますね。ただし<code>\\\\ </code>のようにバックスラッシュ４つのあとに半角スペースを入れるのを忘れると悲惨なことになるので肝に命じておかなくては…
+$$
+x = \begin{cases}
+a &amp;\text{if } b \\
+c &amp;\text{if } d
+\end{cases}
+$$</p>
+<p>証明木を書けるのが理想なんですが、厳しそうなんで画像化して埋め込むしかなさそう。</p>
+        </section>
+    </article>
 
-		
-	
-        <nav class="pagination">
-            
-            
-        
-            <span>1</span>
-        </nav>
-	</section>
+	<nav class="pagination">
+
+		<a href="#" class="top">Top</a>
+	</nav>
 </main>
 
 
         		<footer>
 			
 			<span>
-			&copy; <time datetime="2020-11-17 23:28:14.585811 &#43;0900 JST m=&#43;0.083611691">2020</time> . 
+			&copy; <time datetime="2020-11-17 23:28:14.58572 &#43;0900 JST m=&#43;0.083521534">2020</time> . 
 			</span>
 		</footer>
 
