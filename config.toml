@@ -4,6 +4,7 @@ disableKinds = ["RSS", "sitemap"]
 publishDir = "docs"
 title = "Coffee Break"
 theme = "tale"
+googleAnalytics = "G-NQY19F5D3C"
 
 github = "mildc055ee"
 
