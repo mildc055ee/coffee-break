@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://blog.mildcoffee.dev"
 languageCode = "ja-jp"
 disableKinds = ["RSS", "sitemap"]
 publishDir = "docs"
